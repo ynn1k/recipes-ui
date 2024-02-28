@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { HttpClient } from '@angular/common/http';
+import { RecipesService } from './recipes.service';
+import { BrowserModule } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -8,6 +11,5 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
-export class AppComponent {
-  title = 'recipes-ui';
-}
+
+export class AppComponent {}
